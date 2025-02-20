@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Losango</title>
+    <link rel="stylesheet" href=".//style.css"/>
+    <link rel="icon" type="image/png" href=".//calculadora.png"/>
+</head>
+<body>
+    <header>
+        <h1>Calculadora de área para losango</h1>
+    </header>
+    <div class="container">
+        <div class="content">  
+            <h2>Insira o valor da diagonal maior</h2>
+            <input type="number" id="diagonalMaior" placeholder="Diagonal maior">
+            <h2>Insira o valor da diagonal menor</h2>
+            <input type="number" id="diagonalMenor" placeholder="Diagonal menor">
+            <button onclick="calcularArea()">Calcular</button>
+            <p id="resultado"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
